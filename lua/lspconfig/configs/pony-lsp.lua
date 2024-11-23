@@ -4,7 +4,7 @@ return {
   default_config = {
     cmd = { 'pony-lsp' },
     filetypes = { 'pony' },
-    root_dir = util.root_pattern('corral.json'),
+    root_dir = util.root_pattern('corral.json', '.git'),
   },
   docs = {
     description = [[
